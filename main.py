@@ -3,8 +3,19 @@ Programa que redimensiona Imagens
 
 Este programa utiliza uma interface gráfica para coletar uma imagem e redimensiona-la retornando uma imagem nova.
 
-Comando usado para converter o arquivo .ui: pyuic5 display.ui -o display.py
+Estou convertendo o arquivo.ui para .py para facilitar a criação do programa e do executável ao final.
+Comando usado para converter o arquivo.ui: pyuic5 display.ui -o display.py
 
+Criando o arquivo executável:
+    1° Instalando o pyinstaller:
+        pip install pyinstaller
+
+    2° Criando o arquivo Executável:
+        pyinstaller --noconsole --name="Redimensionador" --icon="uteis/icone.ico" --onefile main.py
+            --noconsole: Sem Console na execução do arquivo
+            --name: Define o nome do arquivo de saída
+            --icon: Define o icone do arquivo executável
+            --onefile: Cria apenas um arquivo.exe
 """
 from email.errors import InvalidMultipartContentTransferEncodingDefect
 import sys
@@ -116,7 +127,3 @@ if __name__ == '__main__':
  
     conversor.show()
     app.exec_()
-
-# Criando o arquivo executável:
-# pip install pyinstaller
-# pyinstaller --onefile --noconsole .\main.py
