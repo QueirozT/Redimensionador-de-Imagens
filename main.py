@@ -86,7 +86,6 @@ class Conversor(QMainWindow, Ui_MainWindow):
         else:
             self.btnCaminho.setText('Localizar')
 
-
     # Métodos da tela de Redimensionamento
     def voltar(self):
         self.stackedWidget.setCurrentWidget(self.pgInicial)
