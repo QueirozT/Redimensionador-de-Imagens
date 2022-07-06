@@ -79,7 +79,7 @@ class Conversor(QMainWindow, Ui_MainWindow):
                 self.img.setPixmap(self.original_img)
                 self.inputWidth.setText(str(self.original_img.width()))
                 self.inputHeight.setText(str(self.original_img.height()))
-        elif self.btnCaminho.text() == 'Abrir' and Path(self.inputCaminho.text()).exists():
+        elif self.btnCaminho.text() == 'Abrir' and self.inputCaminho.text() and Path(self.inputCaminho.text()).exists():
             self.stackedWidget.setCurrentWidget(self.pgRedimensionar)
             self.inputCaminho.setText('')
             self.btnCaminho.setText('Localizar')
