@@ -117,7 +117,10 @@ class Conversor(QMainWindow, Ui_MainWindow):
             directory=f'{Path.joinpath(Path.home(), "Pictures")}',
             filter='Arquivos JPG(*.jpg);; Arquivos PNG(*.png);; Todos os arquivos(*)',
         )
-        self.nova_imagem.save(imagem)
+        try:
+            self.nova_imagem.save(imagem)
+        except:
+            self.original_img.save(imagem)
 
 
 if __name__ == '__main__':
