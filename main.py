@@ -17,7 +17,6 @@ Criando o arquivo executável:
             --icon: Define o icone do arquivo executável
             --onefile: Cria apenas um arquivo.exe
 """
-from email.errors import InvalidMultipartContentTransferEncodingDefect
 import sys
 from pathlib import Path
 from uteis.display import *  # Importa o arquivo convertido de .ui para .py
