@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
         MainWindow.setSizePolicy(sizePolicy)
         MainWindow.setMinimumSize(QtCore.QSize(500, 300))
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("icone.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("uteis/icone.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("background-color: rgb(118, 118, 118);\n"
 "")
@@ -145,7 +145,7 @@ class Ui_MainWindow(object):
         self._icone.setMinimumSize(QtCore.QSize(60, 60))
         self._icone.setMaximumSize(QtCore.QSize(60, 60))
         self._icone.setText("")
-        self._icone.setPixmap(QtGui.QPixmap("lupa.png"))
+        self._icone.setPixmap(QtGui.QPixmap("uteis/lupa.png"))
         self._icone.setScaledContents(True)
         self._icone.setAlignment(QtCore.Qt.AlignCenter)
         self._icone.setObjectName("_icone")
