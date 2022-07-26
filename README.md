@@ -17,4 +17,4 @@
  
  <br>
  
- - Uma versão do executável está disponível clicando <a href="[https://github.com/QueirozT/Redimensionador-de-Imagens/raw/main/Executavel/Redimensionador%20de%20Imagens.rar](https://github.com/QueirozT/Redimensionador-de-Imagens/raw/main/arquivos/executavel/Redimensionador%20de%20Imagens.rar)" target="_blank">aqui!</a>
+ - Uma versão do executável está disponível clicando <a href="https://github.com/QueirozT/Redimensionador-de-Imagens/raw/main/arquivos/executavel/Redimensionador%20de%20Imagens.rar" target="_blank">aqui!</a>
